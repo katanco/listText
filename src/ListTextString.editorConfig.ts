@@ -34,11 +34,11 @@ type ObjectProperties = {
 export function getProperties(_values: ListTextStringPreviewProps, defaultProperties: Properties): Properties {
     // Do the values manipulation here to control the visibility of properties in Studio and Studio Pro conditionally.
 
-    if (!_values.distinctFinalSeperator) {
+    if (!_values.distinctFinalSeparator) {
         const formattingGroup = defaultProperties.find(obj => obj.caption === "Formatting");
         if (formattingGroup) {
             formattingGroup.propertyGroups = formattingGroup.propertyGroups?.filter(
-                group => group.caption !== "Final Seperator"
+                group => group.caption !== "Final Separator"
             );
         }
     }

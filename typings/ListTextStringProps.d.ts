@@ -16,10 +16,10 @@ export interface ListTextStringContainerProps {
     dataSource: ListValue;
     textTemplate: ListExpressionValue<string>;
     renderMode: RenderModeEnum;
-    seperator: DynamicValue<string>;
-    distinctFinalSeperator: boolean;
-    finalSeperator: DynamicValue<string>;
-    replaceSeperator: boolean;
+    separator: DynamicValue<string>;
+    distinctFinalSeparator: boolean;
+    finalSeparator: DynamicValue<string>;
+    replaceSeparator: boolean;
     Prefix?: DynamicValue<string>;
     Suffix?: DynamicValue<string>;
 }
@@ -32,10 +32,10 @@ export interface ListTextStringPreviewProps {
     dataSource: {} | { type: string } | null;
     textTemplate: string;
     renderMode: RenderModeEnum;
-    seperator: string;
-    distinctFinalSeperator: boolean;
-    finalSeperator: string;
-    replaceSeperator: boolean;
+    separator: string;
+    distinctFinalSeparator: boolean;
+    finalSeparator: string;
+    replaceSeparator: boolean;
     Prefix: string;
     Suffix: string;
 }

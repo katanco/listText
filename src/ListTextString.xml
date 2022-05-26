@@ -1,8 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<widget id="mendix.listtextstring.ListTextString" pluginWidget="true" needsEntityContext="false" offlineCapable="true" supportedPlatform="Web" xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+<?xml version="1.0" encoding="utf-8" ?>
+<widget
+    id="mendix.listtextstring.ListTextString"
+    pluginWidget="true"
+    needsEntityContext="false"
+    offlineCapable="true"
+    supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd"
+>
     <name>List Text String</name>
     <description>Utilizes a list datasource to populate and concatenate a string to render on the page.</description>
-    <icon />
+    <icon>
+        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
+    </icon>
     <properties>
         <propertyGroup caption="General">
             <propertyGroup caption="Data source">
@@ -41,29 +52,32 @@
         </propertyGroup>
         <propertyGroup caption="Formatting">
             <propertyGroup caption="Text formatting">
-                <property key="seperator" type="textTemplate">
-                    <caption>Seperator</caption>
-                    <description>Seperator string ie. ', '</description>
+                <property key="separator" type="textTemplate">
+                    <caption>Separator</caption>
+                    <description>Separator string ie. ', '</description>
                     <translations>
-                        <translation lang="en_US">, </translation>
+                        <translation lang="en_US">,</translation>
                     </translations>
                 </property>
-                <property key="distinctFinalSeperator" type="boolean" defaultValue="true">
-                    <caption>Distinct Final Seperator</caption>
+                <property key="distinctFinalSeparator" type="boolean" defaultValue="true">
+                    <caption>Distinct Final Separator</caption>
                     <description />
                 </property>
             </propertyGroup>
-            <propertyGroup caption="Final Seperator">
-                <property key="finalSeperator" type="textTemplate">
-                    <caption>Final Seperator</caption>
-                    <description>Final Seperator string ie. ' and '</description>
+            <propertyGroup caption="Final Separator">
+                <property key="finalSeparator" type="textTemplate">
+                    <caption>Final Separator</caption>
+                    <description>Final Separator string ie. ' and '</description>
                     <translations>
-                        <translation lang="en_US"> and </translation>
+                        <translation lang="en_US">and</translation>
                     </translations>
                 </property>
-                <property key="replaceSeperator" type="boolean" defaultValue="true">
-                    <caption>Replace Seperator</caption>
-                    <description>Replace seperator with final seperator. If false seperator and final seprator will be concatenated for last concatenation.</description>
+                <property key="replaceSeparator" type="boolean" defaultValue="true">
+                    <caption>Replace Separator</caption>
+                    <description>
+                        Replace separator with final separator. If false separator and final seprator will be
+                        concatenated for last concatenation.
+                    </description>
                 </property>
             </propertyGroup>
             <propertyGroup caption="Vanity">
