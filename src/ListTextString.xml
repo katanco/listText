@@ -56,7 +56,7 @@
                     <caption>Separator</caption>
                     <description>Separator string ie. ', '</description>
                     <translations>
-                        <translation lang="en_US">,</translation>
+                        <translation lang="en_US">,&#160;</translation>
                     </translations>
                 </property>
                 <property key="distinctFinalSeparator" type="boolean" defaultValue="true">
@@ -69,7 +69,7 @@
                     <caption>Final Separator</caption>
                     <description>Final Separator string ie. ' and '</description>
                     <translations>
-                        <translation lang="en_US">and</translation>
+                        <translation lang="en_US">&#160;and&#160;</translation>
                     </translations>
                 </property>
                 <property key="replaceSeparator" type="boolean" defaultValue="true">

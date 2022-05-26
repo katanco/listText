@@ -1,7 +1,7 @@
 {
   "name": "listtextstring",
   "widgetName": "ListTextString",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilizes a list datasource to populate and concatenate a string to render on the page.",
   "copyright": "© Mendix Technology BV 2022. All rights reserved.",
   "author": "Jonathan Schmitt",
